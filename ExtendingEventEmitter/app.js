@@ -3,6 +3,7 @@ var util = require("util");
 
 //my function constructor
 function DoSomething() {
+    EventEmitter.call(this);
     this.someData = "This is some data in the DoSomething object";
 }
 
